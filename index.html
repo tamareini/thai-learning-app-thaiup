@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thai Up</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#EA580C">
+<style>
+body{margin:0;font-family:system-ui;background:#FFF7ED}
+header{background:#EA580C;color:white;text-align:center;padding:18px;font-size:22px;box-shadow:0 2px 5px rgba(0,0,0,0.1)}
+.menu{padding:20px;display:flex;flex-direction:column;gap:14px}
+button{padding:16px;border:none;border-radius:16px;background:white;box-shadow:0 4px 10px rgba(0,0,0,0.1);cursor:pointer;font-size:16px;font-weight:500;transition:transform 0.2s}
+button:hover{transform:translateY(-2px)}
+button:active{transform:translateY(0)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;padding:14px}
+.card{background:white;padding:16px;border-radius:14px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.1);cursor:pointer;transition:all 0.3s}
+.card:hover{transform:translateY(-4px);box-shadow:0 4px 12px rgba(234,88,12,0.2)}
+.row{display:flex;gap:10px;justify-content:center;margin-top:8px}
+h2{color:#EA580C;margin:20px 0}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
